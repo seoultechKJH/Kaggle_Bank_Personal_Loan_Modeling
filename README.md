@@ -35,10 +35,15 @@ Stable DT, Stable CRI, Random Forest 알고리즘을 사용하여 Kaggle의 은�
 - Stable DT의 결과에서 정밀도는 의미가 불분명하지만, 높은 재현율을 보이므로 해당 결과로부터 추출한 Rule이 개인대출 고객을 선별하기 위한 특징이라는 사실은 파악할 수 있음 (정밀도는 영업 범위를 극대화시켜 이윤을 창출하는 것과 관련있고, 재현율은 특정 고객 집단의 특성을 파악하는 것과 관련있음)
 - Random Forest 결과가 좋게 나왔으며, 이를 통해 추출한 Feature Importance를 통해 고객의 소득, 월평균 지출, 지식수준이 핵심적인 공략 요소라는 것을 파악할 수 있음
 
+# < Stable DT 결과 >
 ![image](https://github.com/user-attachments/assets/ac75e776-dc0a-4125-b941-86369d0122ab)
 
 ![image](https://github.com/user-attachments/assets/ff903266-c499-4291-9c5f-88ad0b1039b8)
 
 ![image](https://github.com/user-attachments/assets/867746f5-995c-4eae-94ad-fd0e460e19bb)
 
+# < Stable CRI 결과 >
+![image](https://github.com/user-attachments/assets/5ce70d00-e212-4214-91d8-a6fca37c5599)
 
+# < Random Forest 결과 >
+![image](https://github.com/user-attachments/assets/3089b6f8-81d0-4ba1-b531-ef959a2d76d6)
