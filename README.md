@@ -1,6 +1,8 @@
 # Kaggle_Bank_Personal_Loan_Modeling
 Stable DT, Stable CRI, Random Forest 알고리즘을 사용하여 Kaggle의 은행 개인대출 데이터 분석 및 대출 경향이 높은 고객 특성 도출
 
+- 테크니컬 포트폴리오 기술평가항목 : 1, 7
+
 
 # Dataset
 - 총 데이터 수 : 5000개
@@ -31,4 +33,12 @@ Stable DT, Stable CRI, Random Forest 알고리즘을 사용하여 Kaggle의 은�
 - 또한 월평균 신용카드 지출 수준이 중간 범위인 사람들, 학력이 높은 사람들이 대출을 많이 이용하는 경향이 있음
 - Stable DT 결과로부터 추출한 Rule에 따르면 '중위권 소득의 고객이면서, 적절한 소비를 하는 성향을 갖고 있으며, 대학원급 이상의 지식을 갖고 있으며, 가족 수가 적은 고객이 대출을 이용한다는 사실을 추측할 수 있음
 - Stable DT의 결과에서 정밀도는 의미가 불분명하지만, 높은 재현율을 보이므로 해당 결과로부터 추출한 Rule이 개인대출 고객을 선별하기 위한 특징이라는 사실은 파악할 수 있음 (정밀도는 영업 범위를 극대화시켜 이윤을 창출하는 것과 관련있고, 재현율은 특정 고객 집단의 특성을 파악하는 것과 관련있음)
-- Random Forest 결과가 좋게 나왔으며, 이를 통해 추출한 Feature Importance를 통해 고객의 소득, 월평균 지출, 지식수준이 핵심적인 공략 요소라는 것을 파악할 수 
+- Random Forest 결과가 좋게 나왔으며, 이를 통해 추출한 Feature Importance를 통해 고객의 소득, 월평균 지출, 지식수준이 핵심적인 공략 요소라는 것을 파악할 수 있음
+
+![image](https://github.com/user-attachments/assets/ac75e776-dc0a-4125-b941-86369d0122ab)
+
+![image](https://github.com/user-attachments/assets/ff903266-c499-4291-9c5f-88ad0b1039b8)
+
+![image](https://github.com/user-attachments/assets/867746f5-995c-4eae-94ad-fd0e460e19bb)
+
+
